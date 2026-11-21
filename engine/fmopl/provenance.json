@@ -1,0 +1,15 @@
+{
+  "license": "GPL-2.0-or-later (ScummVM/Satoh notices preserved)",
+  "origin": "existing DOSBox PSP source component",
+  "files": {
+    "fmopl.c": {
+      "original_sha256": "8975e5a2902b537626a756358b6407381a01cae9461bb9231d5126f928249143",
+      "snapshot_sha256": "3853c4398fe326a18b9873933d0ef663fdf53c32a51c979aed5d7d2ca2c18f2f"
+    },
+    "fmopl.h": {
+      "original_sha256": "d05a0bd45ae37a37339ddfd2c0778377cc155e11cac9dc9425171c4d772ffdb1",
+      "snapshot_sha256": "d05a0bd45ae37a37339ddfd2c0778377cc155e11cac9dc9425171c4d772ffdb1"
+    }
+  },
+  "change": "OPL_MINOUT constant: -(positive shift); C++ functional cast -> C cast; no numerical approximation"
+}
